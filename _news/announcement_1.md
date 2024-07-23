@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-07-22 12:00:00+0530
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Joined the Indian Institute of Technology Bombay (IIT Bombay) as an Undergraduate
