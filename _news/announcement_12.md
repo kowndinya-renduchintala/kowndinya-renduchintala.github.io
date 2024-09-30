@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Will be presenting [our work](https://arxiv.org/abs/2403.08370) on submodular data mixtures for instruction tuning, at ACL 2024, in Bangkok!
+Presented [our work](https://aclanthology.org/2024.findings-acl.766/) on submodular data mixtures for instruction tuning, at ACL 2024, in Bangkok
