@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Our work]() on measuring prompt sensitivity of Language Models has been accepted to EMNLP 2024 (Findings)!
+[Our work](https://arxiv.org/abs/2410.02185) on measuring prompt sensitivity of Language Models has been accepted to EMNLP 2024 (Findings)!
