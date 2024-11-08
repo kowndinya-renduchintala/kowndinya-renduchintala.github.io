@@ -1,7 +1,7 @@
 ---
 layout: distill
 permalink: /notes/
-title: notes
+title: Notes
 subtitle: Mechanistic Interpretability of Language Models
 nav: true
 nav_order: 3
