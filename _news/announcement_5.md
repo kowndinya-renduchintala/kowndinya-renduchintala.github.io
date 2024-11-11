@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Offered a full-time role at Media and Data Science Research (MDSR) Lab, Adobe Inc. as a Research Associate based on my performance during the internship
+Got offered a full-time role at Media and Data Science Research (MDSR) Lab, Adobe Inc. as a Research Associate

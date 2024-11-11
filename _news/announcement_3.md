@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Secured a research internship at Media and Data Science Research (MDSR) Lab, Adobe Inc.
+Got offered a research internship at Media and Data Science Research (MDSR) Lab, Adobe Inc.
