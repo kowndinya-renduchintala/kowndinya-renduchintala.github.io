@@ -3,8 +3,8 @@
 
 @inproceedings{chatterjee-etal-2024-posix,
     title = "{POSIX}: A Prompt Sensitivity Index For Large Language Models",
-    author = "Chatterjee, Anwoy  and
-      Renduchintala, H S V N S Kowndinya  and
+    author = "Chatterjee†, Anwoy  and
+      Renduchintala†, H S V N S Kowndinya  and
       Bhatia, Sumit  and
       Chakraborty, Tanmoy",
     editor = "Al-Onaizan, Yaser  and
@@ -18,6 +18,12 @@
     url = "https://aclanthology.org/2024.findings-emnlp.852",
     pages = "14550--14565",
     abstract = "Despite their remarkable capabilities, Large Language Models (LLMs) are found to be surprisingly sensitive to minor variations in prompts, often generating significantly divergent outputs in response to minor variations in the prompts, such as spelling errors, alteration of wording or the prompt template. However, while assessing the quality of an LLM, the focus often tends to be solely on its performance on downstream tasks, while very little to no attention is paid to prompt sensitivity. To fill this gap, we propose POSIX {--} a novel PrOmpt Sensitivity IndeX as a reliable measure of prompt sensitivity, thereby offering a more comprehensive evaluation of LLM performance. The key idea behind POSIX is to capture the relative change in loglikelihood of a given response upon replacing the corresponding prompt with a different intent-preserving prompt. We provide thorough empirical evidence demonstrating the efficacy of POSIX in capturing prompt sensitivity and subsequently use it to measure and thereby compare prompt sensitivity of various open source LLMs. We find that merely increasing the parameter count or instruction tuning does not necessarily reduce prompt sensitivity whereas adding some few-shot exemplars, even just one, almost always leads to significant decrease in prompt sensitivity. We also find that alterations to prompt template lead to the highest sensitivity in the case of MCQ type tasks, whereas paraphrasing results in the highest sensitivity in open-ended generation tasks. The code for reproducing our results is open-sourced at https://github.com/kowndinya-renduchintala/POSIX.",
+    preview={emnlp2024.webp},
+    bibtex_show={true},
+    pdf={2024.findings-emnlp.852.pdf},
+    google_scholar_id={Se3iqnhoufwC},
+    annotation={† Shared First Authorship},
+    poster={2024.findings-emnlp.852.pdf},
 }
 
 @inproceedings{renduchintala-etal-2024-smart,
@@ -37,6 +43,10 @@
     doi = "10.18653/v1/2024.findings-acl.766",
     pages = "12916--12934",
     abstract = "Instruction Tuning involves finetuning a language model on a collection of instruction-formatted datasets in order to enhance the generalizability of the model to unseen tasks. Studies have shown the importance of balancing different task proportions during finetuning, but finding the right balance remains challenging. Unfortunately, there{'}s currently no systematic method beyond manual tuning or relying on practitioners{'} intuition. In this paper, we introduce SMART (Submodular data Mixture strAtegy for instRuction Tuning) {---} a novel data mixture strategy which makes use of a submodular function to assign importance scores to tasks which are then used to determine the mixture weights. Given a fine-tuning budget, SMART redistributes the budget among tasks and selects non-redundant samples from each task. Experimental results demonstrate that SMART significantly outperforms traditional methods such as examples proportional mixing and equal mixing. Furthermore, SMART facilitates the creation of data mixtures based on a few representative subsets of tasks alone and through task pruning analysis, we reveal that in a limited budget setting, allocating budget among a subset of representative tasks yields superior performance compared to distributing the budget among all tasks. The code for reproducing our results is open-sourced at https://github.com/kowndinya-renduchintala/SMART.",
+    preview={acl2024.png},
+    bibtex_show={true},
+    pdf={2024.findings-acl.766.pdf},
+    google_scholar_id={qjMakFHDy7sC},
 }
 
 @inproceedings{renduchintala-etal-2023-ingenious,
@@ -60,5 +70,9 @@
     doi = "10.18653/v1/2023.findings-emnlp.445",
     pages = "6690--6705",
     abstract = "A salient characteristic of pre-trained language models (PTLMs) is a remarkable improvement in their generalization capability and emergence of new capabilities with increasing model capacity and pre-training dataset size. Consequently, we are witnessing the development of enormous models pushing the state-of-the-art. It is, however, imperative to realize that this inevitably leads to prohibitively long training times, extortionate computing costs, and a detrimental environmental impact. Significant efforts are underway to make PTLM training more efficient through innovations in model architectures, training pipelines, and loss function design, with scant attention being paid to optimizing the utility of training data. The key question that we ask is whether it is possible to train PTLMs by employing only highly informative subsets of the training data while maintaining downstream performance? Building upon the recent progress in informative data subset selection, we show how we can employ submodular optimization to select highly representative subsets of the training corpora and demonstrate that the proposed framework can be applied to efficiently train multiple PTLMs (BERT, BioBERT, GPT-2) using only a fraction of data. Further, we perform a rigorous empirical evaluation to show that the resulting models achieve up to {\textasciitilde}99{\%} of the performance of the fully-trained models. We made our framework publicly available at https://github.com/Efficient-AI/ingenious.",
-    selected={true}
+    selected={true},
+    preview={emnlp2023.gif},
+    bibtex_show={true},
+    pdf={2023.findings-emnlp.445.pdf},
+    google_scholar_id={ufrVoPGSRksC},
 }
