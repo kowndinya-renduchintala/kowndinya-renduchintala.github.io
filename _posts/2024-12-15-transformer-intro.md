@@ -2,7 +2,7 @@
 layout: distill
 title: An Intro to Transformer-based Language Models (LMs)
 tags: transformers LMs
-date: 2024-12-24
+date: 2024-12-15
 featured: false
 
 authors:
