@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending NAACL 2025 in Albuqeurque, New Mexico! :smiley:
+Attending NAACL 2025 in Albuquerque, New Mexico! :smiley:
