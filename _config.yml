@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Decoding Papers with K # blog_name will be displayed in your blog page
 blog_description: Brief Summaries and Quick Thoughts - One paper at a time
-blog_note: (Upcoming is a series of papers that I'm reading on Mechanistic Interpretability of LMs)
+blog_note: "Only yesterday the practical things of today were decried as impractical, and the theories which will be practical tomorrow will always be branded as valueless games by the practical men of today! - William Feller"
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
