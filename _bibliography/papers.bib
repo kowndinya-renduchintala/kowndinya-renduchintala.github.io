@@ -80,3 +80,17 @@
     poster={2023.findings-emnlp.445.poster.pdf},
     video={https://youtu.be/Srg96xxDp9M}
 }
+
+@article{chatterjee2025effect,
+  title={On the Effect of Instruction Tuning Loss on Generalization},
+  author={Chatterjee, Anwoy and Renduchintala, HSVNS Kowndinya and Bhatia, Sumit and Chakraborty, Tanmoy},
+  journal={arXiv preprint arXiv:2507.07817},
+  url = "https://arxiv.org/abs/2507.07817",
+  abstract = "Instruction Tuning has emerged as a pivotal post-training paradigm that enables pre-trained language models to better follow user instructions. Despite its significance, little attention has been given to optimizing the loss function used. A fundamental, yet often overlooked, question is whether the conventional auto-regressive objective - where loss is computed only on response tokens, excluding prompt tokens - is truly optimal for instruction tuning. In this work, we systematically investigate the impact of differentially weighting prompt and response tokens in instruction tuning loss, and propose Weighted Instruction Tuning (WIT) as a better alternative to conventional instruction tuning. Through extensive experiments on five language models of different families and scale, three finetuning datasets of different sizes, and five diverse evaluation benchmarks, we show that the standard instruction tuning loss often yields suboptimal performance and limited robustness to input prompt variations. We find that a low-to-moderate weight for prompt tokens coupled with a moderate-to-high weight for response tokens yields the best-performing models across settings and also serve as better starting points for the subsequent preference alignment training. These findings highlight the need to reconsider instruction tuning loss and offer actionable insights for developing more robust and generalizable models. Our code is open-sourced at https://github.com/kowndinya-renduchintala/WIT.",
+  year={2025},
+  selected={true},
+  preview={tacl.webp},
+  bibtex_show={true},
+  pdf={2025.tacl.pdf},
+  google_scholar_id={UebtZRa9Y70C},
+}
