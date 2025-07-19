@@ -131,11 +131,11 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Decoding Papers with K # blog_name will be displayed in your blog page
-blog_description: Brief Summaries and Quick Thoughts - One paper at a time
+blog_name: The Essencia, by K # blog_name will be displayed in your blog page
+blog_description: Brief Summaries and Quick Thoughts - One post at a time...
 blog_note: "Only yesterday the practical things of today were decried as impractical, and the theories which will be practical tomorrow will always be branded as valueless games by the practical men of today! - William Feller"
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:
