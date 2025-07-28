@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Our work](https://arxiv.org/abs/2305.06677) on Data-Efficient Pretraining of Language Models has been accepted to the EMNLP 2023 (Findings)
+[INGENIOUS: Using Informative Data Subsets for Efficient Pre-Training of Language Models](https://arxiv.org/abs/2305.06677) has been accepted to the EMNLP 2023 (Findings)

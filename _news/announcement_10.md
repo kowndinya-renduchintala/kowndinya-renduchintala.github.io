@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Our work](https://arxiv.org/abs/2403.08370) on submodular data mixtures for instruction tuning has been accepted to ACL 2024 (Findings)
+[SMART: Submodular Data Mixtures for Instruction Tuning](https://arxiv.org/abs/2403.08370) has been accepted to ACL 2024 (Findings)

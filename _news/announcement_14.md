@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Couldn't present [our work](https://aclanthology.org/2024.findings-emnlp.852/) (in-person) at EMNLP 2024 in Miami, due to delays in visa processing :disappointed:
+Couldn't present [POSIX](https://aclanthology.org/2024.findings-emnlp.852/) (in-person) at EMNLP 2024 in Miami, due to delays in visa processing :disappointed:

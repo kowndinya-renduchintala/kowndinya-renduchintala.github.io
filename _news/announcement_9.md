@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented [our work](https://aclanthology.org/2023.findings-emnlp.445/) (in-person) on Data-Efficient Pretraining of Language Models at EMNLP 2023, in Singapore :smiley:
+Presented [INGENIOUS](https://aclanthology.org/2023.findings-emnlp.445/) in person at EMNLP 2023 in Singapore :smiley:
