@@ -1,0 +1,60 @@
+@article{chatterjee2025effect,
+  title={On the Effect of Instruction Tuning Loss on Generalization},
+  author={Chatterjee†, Anwoy and Renduchintala†, H S V N S Kowndinya and Bhatia, Sumit and Chakraborty, Tanmoy},
+  journal={arXiv preprint arXiv:2507.07817},
+  url = "https://arxiv.org/abs/2507.07817",
+  abstract = "Instruction Tuning has emerged as a pivotal post-training paradigm that enables pre-trained language models to better follow user instructions. Despite its significance, little attention has been given to optimizing the loss function used. A fundamental, yet often overlooked, question is whether the conventional auto-regressive objective - where loss is computed only on response tokens, excluding prompt tokens - is truly optimal for instruction tuning. In this work, we systematically investigate the impact of differentially weighting prompt and response tokens in instruction tuning loss, and propose Weighted Instruction Tuning (WIT) as a better alternative to conventional instruction tuning. Through extensive experiments on five language models of different families and scale, three finetuning datasets of different sizes, and five diverse evaluation benchmarks, we show that the standard instruction tuning loss often yields suboptimal performance and limited robustness to input prompt variations. We find that a low-to-moderate weight for prompt tokens coupled with a moderate-to-high weight for response tokens yields the best-performing models across settings and also serve as better starting points for the subsequent preference alignment training. These findings highlight the need to reconsider instruction tuning loss and offer actionable insights for developing more robust and generalizable models. Our code is open-sourced at https://github.com/kowndinya-renduchintala/WIT.",
+  year={2025},
+  selected={true},
+  preview={tacl.webp},
+  bibtex_show={true},
+  pdf={2025.tacl.pdf},
+  google_scholar_id={UebtZRa9Y70C},
+  annotation={† Shared First Authorship},
+  blog={/papers/wit}
+}
+
+@inproceedings{huerta-enochian-ko-2024-instruction,
+    title = "Instruction Fine-Tuning: Does Prompt Loss Matter?",
+    author = "Huerta-Enochian, Mathew  and
+      Ko, Seung Yong",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1267/",
+    doi = "10.18653/v1/2024.emnlp-main.1267",
+    pages = "22771--22795",
+    abstract = "We present a novel study analyzing the effects of various prompt loss token weights (PLW) for supervised instruction fine-tuning (SIFT). While prompt-masking (PLW = 0) is common for SIFT, some fine-tuning APIs support fractional PLWs and suggest that using a small non-zero PLW can help stabilize learning when fine-tuning on short-completion data. However, there has never been a study confirming this claim, and OpenAI, a major cloud-based SIFT provider, recently removed this parameter from their fine-tuning API. We found that performance of models fine-tuned on short-completion data had a statistically-significant negative quadratic relationship with PLW. Using small values (0.01 {\ensuremath{-}} 0.5) of PLW produced better results on multiple-choice and short-generation benchmarks (outperforming models fine-tuned on long-completion data) while large values ({\ensuremath{\approx}} 1.0) of PLW produced better results on long-generation benchmarks. We explained this effect and verified its importance through additional experiments. This research serves as a warning to API providers about the importance of providing a PLW parameter for SIFT."
+}
+
+@article{shi2025instruction,
+  title={Instruction tuning with loss over instructions},
+  author={Shi, Zhengxiang and Yang, Adam and Wu, Bin and Aitchison, Laurence and Yilmaz, Emine and Lipani, Aldo},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={69176--69205},
+  year={2025}
+}
+
+@inproceedings{
+chu2025sftmemorizesrlgeneralizes,
+title={{SFT} Memorizes, {RL} Generalizes: A Comparative Study of Foundation Model Post-training},
+author={Tianzhe Chu and Yuexiang Zhai and Jihan Yang and Shengbang Tong and Saining Xie and Dale Schuurmans and Quoc V. Le and Sergey Levine and Yi Ma},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=dYur3yabMj}
+}
+
+@inproceedings{
+neftune,
+title={{NEFT}une: Noisy Embeddings Improve Instruction Finetuning},
+author={Neel Jain and {Ping-yeh} Chiang and Yuxin Wen and John Kirchenbauer and Hong-Min Chu and Gowthami Somepalli and Brian R. Bartoldson and Bhavya Kailkhura and Avi Schwarzschild and Aniruddha Saha and Micah Goldblum and Jonas Geiping and Tom Goldstein},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=0bMmZ3fkCk}
+}

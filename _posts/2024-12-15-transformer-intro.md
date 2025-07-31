@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: An Intro to Transformer-based Language Models (LMs)
-tags: transformers LMs
+title: Transformer-Based Language Models
+tags: transformers LMs pre-training
 date: 2024-12-15
 featured: false
 
@@ -27,8 +27,6 @@ _styles: >
     font-size: 16px;
   }
 ---
-
-**Note**: This is just an article (not a paper) explaining the basics of transformer-based LMs.
 
 ## What is a Transformer-based LM?
 
