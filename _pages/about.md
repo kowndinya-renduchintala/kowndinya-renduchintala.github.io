@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Associate 2, Media and Data Science Research (MDSR) Lab, Adobe Inc.
+subtitle: Research Associate II, Media and Data Science Research (MDSR) Lab, Adobe Inc.
 
 profile:
   align: left
@@ -15,10 +15,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey, there! I am a pre-doctoral researcher in the Media and Data Science Research (MDSR) lab at Adobe. My current research interests include data efficiency and human-cognition inspired architectures/algorithms in NLP (motivated largely by how we, humans, learn so much from so little!). Apart from these, I'm also interested in interpretability of LMs and adaptation of LMs post-pretraining (e.g., instruction tuning).
+Hey, there! I am a pre-doctoral researcher in the Media and Data Science Research (MDSR) lab at Adobe. Broadly, I'm interested in:
 
-Prior to joining Adobe, I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) (IIT Bombay) in 2023, with a Bachelors degree (with Honors) in [Computer Science and Engineering](https://www.cse.iitb.ac.in/#/). I feel incredibly privileged to have been advised by [Prof. Ganesh Ramakrishnan](https://www.cse.iitb.ac.in/~ganesh/) and [Prof. Rishabh Iyer](https://sites.google.com/view/rishabhiyer/) for my Undergraduate Thesis on [Data-Efficient Pretraining of Language models](https://aclanthology.org/2023.findings-emnlp.445/) using Submodular Functions, which I presented at [EMNLP 2023](https://2023.emnlp.org/). 
+- Advancing our **scientific understanding** of Language Models, and leveraging the insights to train better models that are more robust, interpretable and generalizable.
+- Advancing research on leveraging insights from human cognition to build better AI, as well as revealing more insights about human cognition using AI (e.g., using interpretability methods).
 
-My long-term research goal is to develop provably beneficial intelligent computational agents that can excel at both formal linguistic competence (the knowledge of rules and statistical regularities of language) and functional linguistic competence (the ability to use language in real-world situations).
+My [past research](/publications) explored diverse facets of language models including efficient pre-training, data mixing for instruction tuning, measuring prompt sensitivity, and more recently, alternative loss functions for instruction tuning.
+
+Prior to joining Adobe, I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) (IIT Bombay) in 2023, with a Bachelors degree (with Honors) in [Computer Science and Engineering](https://www.cse.iitb.ac.in/#/), where I was advised by [Prof. Ganesh Ramakrishnan](https://www.cse.iitb.ac.in/~ganesh/) and [Prof. Rishabh Iyer](https://sites.google.com/view/rishabhiyer/). 
+
+My long-term research goal is to develop [Provably Beneficial Artificial Intelligence](https://dl.acm.org/doi/10.1145/3490099.3519388).
 
 If you share an interest in these topics and would like to exchange research ideas, please do not hesitate to contact me via [e-mail](mailto:rharisrikowndinya333@gmail.com). 

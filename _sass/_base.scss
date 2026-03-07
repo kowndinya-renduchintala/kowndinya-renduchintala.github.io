@@ -205,9 +205,17 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.profile.float-left + .clearfix,
+.profile.float-right + .clearfix {
+  ul,
+  ol {
+    overflow: hidden;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 33%;
 
     .address {
       p {
