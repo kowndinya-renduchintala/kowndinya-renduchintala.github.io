@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Heterogeneity in Formal Linguistic Competence: Is Data the Real Bottleneck?](), has been accepted to ACL 2026 (Findings)
+[Heterogeneity in Formal Linguistic Competence: Is Data the Real Bottleneck?](https://arxiv.org/abs/2604.17930), has been accepted to ACL 2026 (Findings)
