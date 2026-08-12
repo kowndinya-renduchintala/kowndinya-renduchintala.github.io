@@ -129,9 +129,30 @@
   year={2026},
   abstract={Large Language Models (LLMs) exhibit a puzzling disparity in their formal linguistic competence: while they learn some linguistic phenomena with near-perfect mastery, they often perform below chance on others, even after training on trillions of tokens. In this work, we investigate whether these failures stem from inherent architectural limitations or simply the scarcity of these specific grammatical constructions in web-scale corpora. We pre-train simple GPT-2 Small (124M) models on a 100M-token random sample of the FineWeb corpus and intervene by injecting a minimal amount (1%) of synthetic data targeting specific linguistic phenomena. We find that this targeted intervention substantially improves model performance in 8 out of the 9 worst-performing BLiMP paradigms - notably the accuracy on a specific paradigm, only_npi_scope, surges from 20.9% to 69.4%. Furthermore, we observe that these interventions generally preserve or slightly improve aggregate performance. However, while we also identify a resistant phenomenon, principle_A_c_command, whose performance remains below chance even after our data augmentation, our findings do serve as an optimistic existence proof that even small language models can substantially improve on those linguistic phenomena on which models typically perform poorly, provided the pre-training data contains sufficient exposure to them. This suggests that efforts towards human-scale language modeling may benefit greatly by focusing on data composition. The code to reproduce our results is open-sourced at https://github.com/kowndinya-renduchintala/heterogeneity-in-formal-linguistic-competence.},
   url={https://arxiv.org/abs/2604.17930},
-  selected={true},
-  preview={acl2026.png},
-  bibtex_show={true},
-  pdf={2026.findings-acl.pdf},
-  google_scholar_id={3fE2CSJIrl8C}
+  
+}
+
+@inproceedings{renduchintala-bhatia-2026-heterogeneity,
+    title = "Heterogeneity in Formal Linguistic Competence of Language Models: Is Data the Real Bottleneck?",
+    author = "Renduchintala, H S V N S Kowndinya  and
+      Bhatia, Sumit",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.224/",
+    doi = "10.18653/v1/2026.findings-acl.224",
+    pages = "4598--4608",
+    ISBN = "979-8-89176-395-1",
+    abstract = "Large Language Models (LLMs) exhibit a puzzling disparity in their formal linguistic competence: while they learn some linguistic phenomena with near-perfect mastery, they often perform below chance on others, even after training on trillions of tokens. In this work, we investigate whether these failures stem from inherent architectural limitations or simply the scarcity of these specific grammatical constructions in web-scale corpora. We pre-train simple GPT-2 Small (124M) models on a 100M-token random sample of the FineWeb corpus and intervene by injecting a minimal amount (1{\%}) of synthetic data targeting specific linguistic phenomena. We find that this targeted intervention substantially improves model performance in 8 out of the 9 worst-performing BLiMP paradigms {--} notably the accuracy on a specific paradigm, only{\_}npi{\_}scope, surges from 20.9{\%} to 69.4{\%}. Furthermore, we observe that these interventions generally preserve or slightly improve aggregate performance. However, while we also identify a resistant phenomenon, principle{\_}A{\_}c{\_}command, whose performance remains below chance even after our data augmentation, our findings do serve as an optimistic existence proof that even small language models can substantially improve on those linguistic phenomena on which models typically perform poorly, provided the pre-training data contains sufficient exposure to them. This suggests that efforts towards human-scale language modeling may benefit greatly by focusing on data composition. The code to reproduce our results is open-sourced at \url{https://github.com/kowndinya-renduchintala/heterogeneity-in-formal-linguistic-competence}.",
+    selected={true},
+    preview={acl2026.png},
+    bibtex_show={true},
+    pdf={2026.findings-acl.224.pdf},
+    google_scholar_id={3fE2CSJIrl8C}
 }
