@@ -52,15 +52,7 @@ let applyTheme = () => {
 
   document.documentElement.setAttribute("data-theme", theme);
 
-  // Add class to tables.
-  let tables = document.getElementsByTagName("table");
-  for (let i = 0; i < tables.length; i++) {
-    if (theme == "dark") {
-      tables[i].classList.add("table-dark");
-    } else {
-      tables[i].classList.remove("table-dark");
-    }
-  }
+  setTablesTheme(theme);
 
   // Set jupyter notebooks themes.
   let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
@@ -90,6 +82,18 @@ let setHighlight = (theme) => {
   } else {
     document.getElementById("highlight_theme_dark").media = "none";
     document.getElementById("highlight_theme_light").media = "";
+  }
+};
+
+// Add or remove the dark style on tables.
+let setTablesTheme = (theme) => {
+  let tables = document.getElementsByTagName("table");
+  for (let i = 0; i < tables.length; i++) {
+    if (theme == "dark") {
+      tables[i].classList.add("table-dark");
+    } else {
+      tables[i].classList.remove("table-dark");
+    }
   }
 };
 
@@ -238,6 +242,9 @@ let initTheme = () => {
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
+    // Tables don't exist yet when the theme is first applied from <head>.
+    setTablesTheme(determineComputedTheme());
+
     const mode_toggle = document.getElementById("light-toggle");
 
     mode_toggle.addEventListener("click", function () {
