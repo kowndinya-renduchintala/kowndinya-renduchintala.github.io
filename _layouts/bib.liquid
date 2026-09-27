@@ -266,16 +266,22 @@
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
+            {% comment %} eprint can be a URL (e.g. a publisher PDF) rather than an arXiv ID {% endcomment %}
+            {% assign altmetric_arxiv_id = entry.arxiv %}
+            {% if altmetric_arxiv_id == blank and entry.eprint %}
+              {% unless entry.eprint contains '://' %}
+                {% assign altmetric_arxiv_id = entry.eprint %}
+              {% endunless %}
+            {% endif %}
             <span
               class="altmetric-embed"
               data-badge-type="2"
               data-badge-popover="right"
+              data-hide-no-mentions="true"
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
                 data-altmetric-id="{{ entry.altmetric }}"
-              {% elsif entry.arxiv %}
-                data-arxiv-id="{{ entry.arxiv }}"
-              {% elsif entry.eprint %}
-                data-arxiv-id="{{ entry.eprint }}"
+              {% elsif altmetric_arxiv_id %}
+                data-arxiv-id="{{ altmetric_arxiv_id }}"
               {% elsif entry.doi %}
                 data-doi="{{ entry.doi }}"
               {% elsif entry.pmid %}
@@ -297,6 +303,7 @@
               {% endif %}
               data-style="small_rectangle"
               data-legend="hover-right"
+              data-hide-zero-citations="true"
               style="margin-bottom: 3px;"
             ></span>
           {% endif %}
