@@ -4,15 +4,15 @@ Source for my personal website, [kowndinya-renduchintala.github.io](https://kown
 
 ## Where things live
 
-| What                        | Where                                   |
-| --------------------------- | --------------------------------------- |
-| About page (home)           | `_pages/about.md`                       |
+| What                        | Where                                                    |
+| --------------------------- | -------------------------------------------------------- |
+| About page (home)           | `_pages/about.md`                                        |
 | Blog posts                  | `_posts/` (per-post citations in `assets/bibliography/`) |
-| News / announcements        | `_news/`                                |
-| Publications                | `_bibliography/papers.bib`              |
-| Gallery, repositories, etc. | `_pages/`                               |
-| Images and PDFs             | `assets/img/`, `assets/pdf/`            |
-| Site settings               | `_config.yml`                           |
+| News / announcements        | `_news/`                                                 |
+| Publications                | `_bibliography/papers.bib`                               |
+| Gallery, repositories, etc. | `_pages/`                                                |
+| Images and PDFs             | `assets/img/`, `assets/pdf/`                             |
+| Site settings               | `_config.yml`                                            |
 
 Pushing to `master` builds and deploys the site through `.github/workflows/deploy.yml`.
 
