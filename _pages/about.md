@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Associate II, Media and Data Science Research (MDSR) Lab, Adobe Inc.
+subtitle: Incoming MS Student (Spring 2027), NYU Courant Institute School of Mathematics, Computing, and Data Science
 
 profile:
   align: left
@@ -15,14 +15,14 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey, there! I am a pre-doctoral researcher in the Media and Data Science Research (MDSR) lab at Adobe. Broadly, I'm interested in:
+Hey there! I am an incoming MS student (starting Spring 2027) at [NYU Courant Institute School of Mathematics, Computing, and Data Science](https://cims.nyu.edu/), where I plan to continue working on:
 
-- Advancing our **scientific understanding** of Language Models, and leveraging the insights to train better models that are more robust, interpretable and generalizable.
-- Advancing research on leveraging insights from human cognition to build better AI, as well as revealing more insights about human cognition using AI (e.g., using interpretability methods).
+- Advancing our **scientific understanding** of language models, and leveraging the insights to train better models that are more robust, interpretable and generalizable.
+- Using insights from human cognition to build better AI, and using AI (e.g., interpretability methods) to learn more about human cognition.
 
-My [past research](/publications) explored diverse facets of language models including efficient pre-training, data mixing for instruction tuning, measuring prompt sensitivity, and more recently, alternative loss functions for instruction tuning.
+Before NYU, I spent 3+ years as a Research Associate at Adobe's Media and Data Science Research (MDSR) Lab, where my [research](/publications) explored efficient pre-training, data mixtures for post-training, prompt sensitivity, alternative loss functions for instruction tuning, and uneven formal linguistic competence in language models.
 
-Prior to joining Adobe, I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) (IIT Bombay) in 2023, with a Bachelors degree (with Honors) in [Computer Science and Engineering](https://www.cse.iitb.ac.in/#/), where I was advised by [Prof. Ganesh Ramakrishnan](https://www.cse.iitb.ac.in/~ganesh/) and [Prof. Rishabh Iyer](https://sites.google.com/view/rishabhiyer/).
+Before Adobe, I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) (IIT Bombay) in 2023, with a Bachelor's degree (with Honors) in [Computer Science and Engineering](https://www.cse.iitb.ac.in/#/), where I was advised by [Prof. Ganesh Ramakrishnan](https://www.cse.iitb.ac.in/~ganesh/) and [Prof. Rishabh Iyer](https://sites.google.com/view/rishabhiyer/).
 
 My long-term research goal is to develop [Provably Beneficial Artificial Intelligence](https://dl.acm.org/doi/10.1145/3490099.3519388).
 
