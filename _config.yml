@@ -8,7 +8,7 @@ middle_name:
 last_name: Renduchintala
 email: rharisrikowndinya333@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Kowndinya Renduchintala, a pre-doctoral researcher at Adobe's Media and Data Science Research (MDSR) Lab working on the science of language models, interpretability and instruction tuning.
+  Kowndinya Renduchintala, an incoming MS student at NYU Courant (Spring 2027) and former Research Associate at Adobe's Media and Data Science Research (MDSR) Lab, working on the science of language models, interpretability and instruction tuning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
