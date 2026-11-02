@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming MS Student (Spring 2027), NYU Courant Institute School of Mathematics, Computing, and Data Science
+subtitle: Incoming MS Student, NYU Courant Institute School of Mathematics, Computing, and Data Science
 
 profile:
   align: left
