@@ -19,13 +19,6 @@ strong {
   color: var(--global-text-color);
 }
 
-// Italic correction: slanted glyphs lean into the following upright space,
-// making it look collapsed (e.g. "how and"). Add a little room after them.
-em,
-i:not([class]) {
-  padding-right: 0.08em;
-}
-
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
