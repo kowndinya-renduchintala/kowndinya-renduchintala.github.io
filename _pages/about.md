@@ -24,6 +24,6 @@ Before NYU, I spent 3+ years as a Research Associate at Adobe's Media and Data S
 
 Before Adobe, I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) (IIT Bombay) in 2023, with a Bachelor's degree (with Honors) in [Computer Science and Engineering](https://www.cse.iitb.ac.in/#/), where I was advised by [Prof. Ganesh Ramakrishnan](https://www.cse.iitb.ac.in/~ganesh/) and [Prof. Rishabh Iyer](https://sites.google.com/view/rishabhiyer/).
 
-My long-term research goal is to develop [Provably Beneficial Artificial Intelligence](https://dl.acm.org/doi/10.1145/3490099.3519388).
+My long-term research goal is to develop [Provably Beneficial Artificial Intelligence](https://people.eecs.berkeley.edu/~russell/papers/russell-bbvabook17-pbai.pdf).
 
 If you share an interest in these topics and would like to exchange research ideas, please do not hesitate to contact me via [e-mail](mailto:rharisrikowndinya333@gmail.com).
