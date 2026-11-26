@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 Hey there! I am an incoming MS student (starting Spring 2027) at [NYU Courant Institute School of Mathematics, Computing, and Data Science](https://cims.nyu.edu/). My current research interests are:
 
-- Advancing our **scientific understanding** of AI — how and why these models work, what kind of causal world models emerge during training, how complete they are, and what role data plays in shaping them.
+- Advancing our **scientific understanding** of AI — how and why these models work, where they fail, what kind of causal world models emerge during training, how complete they are, and what role data plays in shaping them.
 - Bridging **Cognitive Science and AI** — Leveraging insights from human cognition to develop better AI, as well as using AI to uncover more insights into human cognition.
 
 Before NYU, I spent 3+ years as a Research Associate at Adobe's Media and Data Science Research (MDSR) Lab, where my [research](/publications) explored efficient pre-training, data mixtures for post-training, prompt sensitivity, alternative loss functions for instruction tuning, and uneven formal linguistic competence in language models.
